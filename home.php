@@ -185,7 +185,7 @@
                     </div>
                 </div>
                 
-                <!-- 卡片 8 -->
+                <!-- 卡片 12 -->
                 <div class="w3-card-4" style="width: 30%; box-sizing: border-box;">
                     <img src="pizza/Pizza-12.jpg" alt="Pizza 12" style="width: 100%;">
                     <div class="w3-container w3-center">
