@@ -12,7 +12,6 @@
 </head>
 <body>
     <?=$ling?>
-    
 
     <div id="main">
         <div class="w3-deep-purple">
@@ -161,6 +160,38 @@
                         <p>西瓜披薩</p>
                         <div class="w3-section">
                             <button class="w3-button w3-green">了解更多</button>
+                            <button class="w3-button w3-red">直接訂餐</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 動漫限定披薩 -->
+            <div class="w3-center" style="margin-top: 40px;">
+                <h2>動漫限定披薩</h2>
+                <p>我們的動漫限定披薩系列，本店特別限定！</p>
+            </div>
+
+            <div style="display: flex; justify-content: center; flex-wrap: wrap; gap: 20px; max-width: 1200px; margin: 0 auto;">
+                <!-- 卡片 11 -->
+                <div class="w3-card-4" style="width: 30%; box-sizing: border-box;">
+                    <img src="pizza/Pizza-11.jpg" alt="Pizza 11" style="width: 100%;">
+                    <div class="w3-container w3-center">
+                        <p>動漫美女披薩</p>
+                        <div class="w3-section">
+                            <a href="pizza1.php" class="w3-button w3-green">了解更多</a>
+                            <button class="w3-button w3-red">直接訂餐</button>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- 卡片 8 -->
+                <div class="w3-card-4" style="width: 30%; box-sizing: border-box;">
+                    <img src="pizza/Pizza-12.jpg" alt="Pizza 12" style="width: 100%;">
+                    <div class="w3-container w3-center">
+                        <p>動漫男生披薩</p>
+                        <div class="w3-section">
+                            <a href="pizza1.php" class="w3-button w3-green">了解更多</a>
                             <button class="w3-button w3-red">直接訂餐</button>
                         </div>
                     </div>
