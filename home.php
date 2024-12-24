@@ -32,7 +32,7 @@
                 <div class="w3-card-4" style="width: 30%; box-sizing: border-box;">
                     <img src="pizza\Pizza-1.jpg" alt="Pizza 1" style="width: 100%;">
                     <div class="w3-container w3-center">
-                        <p>The Italian / Austrian Alps</p>
+                        <p>義式臘腸披薩</p>
                         <div class="w3-section">
                             <a href="pizza1.php" class="w3-button w3-green">了解更多</a>
                             <button class="w3-button w3-red">直接訂餐</button>
@@ -44,7 +44,7 @@
                 <div class="w3-card-4" style="width: 30%; box-sizing: border-box;">
                     <img src="pizza/Pizza-2.jpg" alt="Pizza 2" style="width: 100%;">
                     <div class="w3-container w3-center">
-                        <p>The Swiss Alps</p>
+                        <p>看心情披薩</p>
                         <div class="w3-section">
                             <button class="w3-button w3-green">了解更多</button>
                             <button class="w3-button w3-red">直接訂餐</button>
@@ -56,7 +56,7 @@
                 <div class="w3-card-4" style="width: 30%; box-sizing: border-box;">
                     <img src="pizza/Pizza-3.jpg" alt="Pizza 3" style="width: 100%;">
                     <div class="w3-container w3-center">
-                        <p>The French Alps</p>
+                        <p>番茄起司披薩</p>
                         <div class="w3-section">
                             <button class="w3-button w3-green">了解更多</button>
                             <button class="w3-button w3-red">直接訂餐</button>
@@ -68,7 +68,7 @@
                 <div class="w3-card-4" style="width: 30%; box-sizing: border-box;">
                     <img src="pizza/Pizza-4.jpg" alt="Pizza 4" style="width: 100%;">
                     <div class="w3-container w3-center">
-                        <p>The Italian Alps</p>
+                        <p>麵包超人披薩</p>
                         <div class="w3-section">
                             <a href="pizza1.php" class="w3-button w3-green">了解更多</a>
                             <button class="w3-button w3-red">直接訂餐</button>
@@ -80,7 +80,7 @@
                 <div class="w3-card-4" style="width: 30%; box-sizing: border-box;">
                     <img src="pizza/Pizza-5.jpg" alt="Pizza 5" style="width: 100%;">
                     <div class="w3-container w3-center">
-                        <p>The Italian Alps</p>
+                        <p>起司披薩</p>
                         <div class="w3-section">
                             <a href="pizza1.php" class="w3-button w3-green">了解更多</a>
                             <button class="w3-button w3-red">直接訂餐</button>
@@ -90,9 +90,9 @@
                 
                 <!-- 卡片 6 -->
                 <div class="w3-card-4" style="width: 30%; box-sizing: border-box;">
-                    <img src="img_snowtops.jpg" alt="Alps" style="width: 100%;">
+                    <img src="pizza/Pizza-6.jpg" alt="Pizza 6" style="width: 100%;">
                     <div class="w3-container w3-center">
-                        <p>The French Alps</p>
+                        <p>手槍披薩</p>
                         <div class="w3-section">
                             <button class="w3-button w3-green">了解更多</button>
                             <button class="w3-button w3-red">直接訂餐</button>
