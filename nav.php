@@ -1,4 +1,9 @@
 <?php
+    // 檢查 session 是否已經啟動，避免重複呼叫 session_start()
+    if (session_status() == PHP_SESSION_NONE) {
+        session_start();
+    }
+    
     $ling=<<<ling
     <!-- Sidebar -->
     <div class="w3-sidebar w3-bar-block w3-card w3-animate-left w3-light-grey" style="width:30%; display:none;" id="mySidebar">
@@ -26,11 +31,29 @@
 
     ling;
     
-    $link=<<<link
-    <div class="w3-bar w3-light-blue">
-        <a href="#" class="w3-bar-item w3-button">首頁</a>
-        <a href="#" class="w3-bar-item w3-button">Link 1</a>
-        <a href="#" class="w3-bar-item w3-button">Link 2</a>
-        <a href="#" class="w3-bar-item w3-button">Link 3</a>
-    </div>
-    link;
+    
+
+    // 根據是否登入來顯示不同的頂部導航欄 HTML
+    if (isset($_SESSION['user_id'])) {
+        // 已登入，顯示「登出」按鈕
+        $link=<<<link
+        <div class="w3-bar w3-light-blue">
+            <a href="home.php" class="w3-bar-item w3-button">首頁</a>
+            <a href="logout.php" class="w3-bar-item w3-button w3-right">登出</a>
+            <a href="#" class="w3-bar-item w3-button">Link 1</a>
+            <a href="#" class="w3-bar-item w3-button">Link 2</a>
+            <a href="#" class="w3-bar-item w3-button">Link 3</a>
+        </div>
+        link;
+    } else {
+        // 未登入，顯示「登入」按鈕
+        $link=<<<link
+        <div class="w3-bar w3-light-blue">
+            <a href="home.php" class="w3-bar-item w3-button">首頁</a>
+            <a href="login.php" class="w3-bar-item w3-button w3-right">登入</a>
+            <a href="#" class="w3-bar-item w3-button">Link 1</a>
+            <a href="#" class="w3-bar-item w3-button">Link 2</a>
+            <a href="#" class="w3-bar-item w3-button">Link 3</a>
+        </div>
+        link;
+    }
