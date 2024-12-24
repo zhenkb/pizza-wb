@@ -16,8 +16,10 @@
                 <i class="fa fa-caret-down"></i>
             </button>
             <div class="w3-dropdown-content w3-bar-block">
-                <a href="#" class="w3-bar-item w3-button">Link</a>
-                <a href="#" class="w3-bar-item w3-button">Link</a>
+                <a href="Regular pizza.php" class="w3-bar-item w3-button">普通披薩</a>
+                <a href="special pizza.php" class="w3-bar-item w3-button">特別披薩</a>
+                <a href="Seasonal limited pizza.php" class="w3-bar-item w3-button">季節限定披薩</a>
+                <a href="Anime limited pizza.php" class="w3-bar-item w3-button">動漫限定披薩</a>
             </div>
         </div>
     </div>
