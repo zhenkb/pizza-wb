@@ -196,6 +196,83 @@
                         </div>
                     </div>
                 </div>
+                <!-- 卡片 13 -->
+                <div class="w3-card-4" style="width: 30%; box-sizing: border-box;">
+                    <img src="pizza/Pizza-13.jpg" alt="Pizza 13" style="width: 100%;">
+                    <div class="w3-container w3-center">
+                        <p>草仙子披薩</p>
+                        <div class="w3-section">
+                            <a href="pizza1.php" class="w3-button w3-green">了解更多</a>
+                            <button class="w3-button w3-red">直接訂餐</button>
+                        </div>
+                    </div>
+                </div>
+                <!-- 卡片 14 -->
+                <div class="w3-card-4" style="width: 30%; box-sizing: border-box;">
+                    <img src="pizza/Pizza-14.jpg" alt="Pizza 14" style="width: 100%;">
+                    <div class="w3-container w3-center">
+                        <p>花仙子披薩</p>
+                        <div class="w3-section">
+                            <a href="pizza1.php" class="w3-button w3-green">了解更多</a>
+                            <button class="w3-button w3-red">直接訂餐</button>
+                        </div>
+                    </div>
+                </div>
+                <!-- 卡片 15 -->
+                <div class="w3-card-4" style="width: 30%; box-sizing: border-box;">
+                    <img src="pizza/Pizza-15.jpg" alt="Pizza 15" style="width: 100%;">
+                    <div class="w3-container w3-center">
+                        <p>音速小子披薩</p>
+                        <div class="w3-section">
+                            <a href="pizza1.php" class="w3-button w3-green">了解更多</a>
+                            <button class="w3-button w3-red">直接訂餐</button>
+                        </div>
+                    </div>
+                </div>
+                <!-- 卡片 16 -->
+                <div class="w3-card-4" style="width: 30%; box-sizing: border-box;">
+                    <img src="pizza/Pizza-16.jpg" alt="Pizza 16" style="width: 100%;">
+                    <div class="w3-container w3-center">
+                        <p>雙人披薩</p>
+                        <div class="w3-section">
+                            <a href="pizza1.php" class="w3-button w3-green">了解更多</a>
+                            <button class="w3-button w3-red">直接訂餐</button>
+                        </div>
+                    </div>
+                </div>
+                <!-- 卡片 17 -->
+                <div class="w3-card-4" style="width: 30%; box-sizing: border-box;">
+                    <img src="pizza/Pizza-17.jpg" alt="Pizza 17" style="width: 100%;">
+                    <div class="w3-container w3-center">
+                        <p>兒童披薩</p>
+                        <div class="w3-section">
+                            <a href="pizza1.php" class="w3-button w3-green">了解更多</a>
+                            <button class="w3-button w3-red">直接訂餐</button>
+                        </div>
+                    </div>
+                </div>
+                <!-- 卡片 18 -->
+                <div class="w3-card-4" style="width: 30%; box-sizing: border-box;">
+                    <img src="pizza/Pizza-18.jpg" alt="Pizza 18" style="width: 100%;">
+                    <div class="w3-container w3-center">
+                        <p>臘腸跑車披薩</p>
+                        <div class="w3-section">
+                            <a href="pizza1.php" class="w3-button w3-green">了解更多</a>
+                            <button class="w3-button w3-red">直接訂餐</button>
+                        </div>
+                    </div>
+                </div>
+                <!-- 卡片 19 -->
+                <div class="w3-card-4" style="width: 30%; box-sizing: border-box;">
+                    <img src="pizza/Pizza-19.jpg" alt="Pizza 19" style="width: 100%;">
+                    <div class="w3-container w3-center">
+                        <p>菇菇跑車披薩</p>
+                        <div class="w3-section">
+                            <a href="pizza1.php" class="w3-button w3-green">了解更多</a>
+                            <button class="w3-button w3-red">直接訂餐</button>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
 
@@ -213,6 +290,7 @@
         document.getElementById("mySidebar").style.display = "none";
         document.getElementById("openNav").style.display = "inline-block";
         }
+        
     </script>
 </body>
 </html>
