@@ -1,6 +1,9 @@
 <?php
+    session_start(); // 確保每個頁面都啟動了 Session
     include("nav.php");
 
+    // 檢查用戶是否已登入
+    $is_logged_in = isset($_SESSION['user_id']);
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -21,6 +24,7 @@
                 <h1>小饞貓貪吃店</h1>
             </div>
             <?=$link?>
+            
         </div>
 
         <div class="w3-content w3-section" style="max-width:500px">
