@@ -23,7 +23,27 @@
             <?=$link?>
         </div>
 
-        
+        <div class="w3-content w3-section" style="max-width:500px">
+            <img class="mySlides w3-animate-fading" src="pizza/Pizza-1.jpg" style="width:100%">
+            <img class="mySlides w3-animate-fading" src="pizza/Pizza-2.jpg" style="width:100%">
+            <img class="mySlides w3-animate-fading" src="pizza/Pizza-3.jpg" style="width:100%">
+            <img class="mySlides w3-animate-fading" src="pizza/Pizza-4.jpg" style="width:100%">
+            <img class="mySlides w3-animate-fading" src="pizza/Pizza-5.jpg" style="width:100%">
+            <img class="mySlides w3-animate-fading" src="pizza/Pizza-6.jpg" style="width:100%">
+            <img class="mySlides w3-animate-fading" src="pizza/Pizza-7.jpg" style="width:100%">
+            <img class="mySlides w3-animate-fading" src="pizza/Pizza-8.jpg" style="width:100%">
+            <img class="mySlides w3-animate-fading" src="pizza/Pizza-9.jpg" style="width:100%">
+            <img class="mySlides w3-animate-fading" src="pizza/Pizza-10.jpg" style="width:100%">
+            <img class="mySlides w3-animate-fading" src="pizza/Pizza-11.jpg" style="width:100%">
+            <img class="mySlides w3-animate-fading" src="pizza/Pizza-12.jpg" style="width:100%">
+            <img class="mySlides w3-animate-fading" src="pizza/Pizza-13.jpg" style="width:100%">
+            <img class="mySlides w3-animate-fading" src="pizza/Pizza-14.jpg" style="width:100%">
+            <img class="mySlides w3-animate-fading" src="pizza/Pizza-15.jpg" style="width:100%">
+            <img class="mySlides w3-animate-fading" src="pizza/Pizza-16.jpg" style="width:100%">
+            <img class="mySlides w3-animate-fading" src="pizza/Pizza-17.jpg" style="width:100%">
+            <img class="mySlides w3-animate-fading" src="pizza/Pizza-18.jpg" style="width:100%">
+            <img class="mySlides w3-animate-fading" src="pizza/Pizza-19.jpg" style="width:100%">
+        </div>
 
         <div class="w3-container">
             <!-- 普通披薩 -->
@@ -290,7 +310,21 @@
         document.getElementById("mySidebar").style.display = "none";
         document.getElementById("openNav").style.display = "inline-block";
         }
-        
+
+        var myIndex = 0;
+        carousel();
+
+        function carousel() {
+        var i;
+        var x = document.getElementsByClassName("mySlides");
+        for (i = 0; i < x.length; i++) {
+            x[i].style.display = "none";  
+        }
+        myIndex++;
+        if (myIndex > x.length) {myIndex = 1}    
+        x[myIndex-1].style.display = "block";  
+        setTimeout(carousel, 9000);    
+        }
     </script>
 </body>
 </html>
