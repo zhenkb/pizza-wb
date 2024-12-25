@@ -36,7 +36,7 @@
                         <p>麵包超人披薩</p>
                         <div class="w3-section">
                             <a href="pizza1.php" class="w3-button w3-green">了解更多</a>
-                            <button class="w3-button w3-red">直接訂餐</button>
+                            <a href="order.php" class="w3-button w3-red">直接訂餐</a>
                         </div>
                     </div>
                 </div>
@@ -48,7 +48,7 @@
                         <p>起司披薩</p>
                         <div class="w3-section">
                             <a href="pizza1.php" class="w3-button w3-green">了解更多</a>
-                            <button class="w3-button w3-red">直接訂餐</button>
+                            <a href="order.php" class="w3-button w3-red">直接訂餐</a>
                         </div>
                     </div>
                 </div>
@@ -59,8 +59,8 @@
                     <div class="w3-container w3-center">
                         <p>西瓜披薩</p>
                         <div class="w3-section">
-                            <button class="w3-button w3-green">了解更多</button>
-                            <button class="w3-button w3-red">直接訂餐</button>
+                            <a href="pizza1.php" class="w3-button w3-green">了解更多</a>
+                            <a href="order.php" class="w3-button w3-red">直接訂餐</a>
                         </div>
                     </div>
                 </div>
