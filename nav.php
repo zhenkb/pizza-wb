@@ -13,7 +13,7 @@
         <!-- Navigation Links -->
         <a href="home.php" class="w3-bar-item w3-button">首頁</a>
         <a href="login.php" class="w3-bar-item w3-button">會員登入/註冊</a>
-        <a href="order.php" class="w3-bar-item w3-button">線上訂餐</a>
+        <a href="index.php" class="w3-bar-item w3-button">線上訂餐</a>
             
         <!-- Dropdown Menu -->
         <div class="w3-dropdown-hover">
