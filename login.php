@@ -1,6 +1,9 @@
 <?php
 session_start(); // 啟動 session
 
+// 引入 nav.php
+include 'nav.php';
+
 // 資料庫連線
 $conn = new mysqli("localhost", "root", "", "login_system");
 if ($conn->connect_error) {
@@ -57,25 +60,36 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
 $conn->close();
 ?>
 
-<!-- HTML 表單 -->
 <!DOCTYPE html>
 <html lang="zh-TW">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>登入與註冊</title>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 </head>
 <body>
-    <h2>登入或註冊</h2>
-    <form method="POST">
-        <label for="username">使用者名稱：</label>
-        <input type="text" name="username" id="username" required><br><br>
+    <div class="w3-deep-purple">
+            <button id="openNav" class="w3-button w3-deep-purple w3-xlarge" onclick="w3_open()">&#9776;</button>
+            <div class="w3-container">
+                <h1>小饞貓貪吃店</h1>
+            </div>
+    </div>
+    <!-- 顯示導覽列 -->
+    <?php echo $nav; ?>
 
-        <label for="password">密碼：</label>
-        <input type="password" name="password" id="password" required><br><br>
+    <div class="w3-center form-container">
+        <h2>登入或註冊</h2>
+        <form method="POST">
+            <label for="username">使用者名稱：</label>
+            <input type="text" name="username" id="username" required><br><br>
 
-        <button type="submit" name="action" value="login">登入</button>
-        <button type="submit" name="action" value="register">註冊</button>
-    </form>
+            <label for="password">密碼：</label>
+            <input type="password" name="password" id="password" required><br><br>
+
+            <button type="submit" name="action" value="login">登入</button>
+            <button type="submit" name="action" value="register">註冊</button>
+        </form>
+    </div>
 </body>
 </html>
