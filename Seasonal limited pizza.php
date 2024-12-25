@@ -36,7 +36,7 @@
                     <div class="w3-container w3-center">
                         <p>聖誕老人披薩</p>
                         <div class="w3-section">
-                            <a href="pizza1.php" class="w3-button w3-green">了解更多</a>
+                            <a href="pizza7.php" class="w3-button w3-green">了解更多</a>
                             <a href="index.php" class="w3-button w3-red">直接訂餐</a>
                         </div>
                     </div>
@@ -48,7 +48,7 @@
                     <div class="w3-container w3-center">
                         <p>菇菇雙倍起司披薩</p>
                         <div class="w3-section">
-                            <a href="pizza1.php" class="w3-button w3-green">了解更多</a>
+                            <a href="pizza8.php" class="w3-button w3-green">了解更多</a>
                             <a href="index.php" class="w3-button w3-red">直接訂餐</a>
                         </div>
                     </div>
@@ -60,7 +60,7 @@
                     <div class="w3-container w3-center">
                         <p>冷凍披薩</p>
                         <div class="w3-section">
-                            <a href="pizza1.php" class="w3-button w3-green">了解更多</a>
+                            <a href="pizza9.php" class="w3-button w3-green">了解更多</a>
                             <a href="index.php" class="w3-button w3-red">直接訂餐</a>
                         </div>
                     </div>
@@ -72,7 +72,7 @@
                     <div class="w3-container w3-center">
                         <p>番茄雙倍起司披薩</p>
                         <div class="w3-section">
-                            <a href="pizza1.php" class="w3-button w3-green">了解更多</a>
+                            <a href="pizza10.php" class="w3-button w3-green">了解更多</a>
                             <a href="index.php" class="w3-button w3-red">直接訂餐</a>
                         </div>
                     </div>
