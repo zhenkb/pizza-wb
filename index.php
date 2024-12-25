@@ -1,15 +1,31 @@
 <?php
     include("nav.php");
-    
+
     if (!isset($_SESSION['cart'])) {
         $_SESSION['cart'] = [];
     }
 
     $pizzas = [
-        ['name' => '瑪格麗塔披薩', 'price' => 200],
-        ['name' => '臘腸披薩', 'price' => 250],
-        ['name' => '海鮮披薩', 'price' => 300],
-        ['name' => '燻雞披薩', 'price' => 280]
+        ['name' => '義式臘腸披薩', 'price' => 200],
+        ['name' => '看心情披薩', 'price' => 250],
+        ['name' => '番茄起司披薩', 'price' => 300],
+        ['name' => '麵包超人披薩', 'price' => 280],
+        ['name' => '起司披薩', 'price' => 260],
+        ['name' => '西瓜披薩', 'price' => 270],
+        ['name' => '聖誕老人披薩', 'price' => 250],
+        ['name' => '菇菇雙倍起司披薩', 'price' => 130],
+        ['name' => '冷凍披薩', 'price' => 110],
+        ['name' => '番茄雙倍起司披薩', 'price' => 220],
+        ['name' => '血月影姬披薩', 'price' => 300],
+        ['name' => '暗夜焰王披薩', 'price' => 300],
+        ['name' => '草仙子披薩', 'price' => 250],
+        ['name' => '花仙子披薩', 'price' => 250],
+        ['name' => '音速小子披薩', 'price' => 170],
+        ['name' => '雙人披薩', 'price' => 270],
+        ['name' => '兒童披薩', 'price' => 290],
+        ['name' => '臘腸跑車披薩', 'price' => 250],
+        ['name' => '菇菇跑車披薩', 'price' => 380],
+        ['name' => '立體喵咪披薩', 'price' => 1280],
     ];
 ?>
 <!DOCTYPE html>
@@ -40,11 +56,12 @@
         <div class="w3-container">
             <h1 class="w3-center">披薩訂單系統</h1>
             <div class="w3-row-padding">
-                <?php foreach ($pizzas as $pizza): ?>
+                <?php foreach ($pizzas as $key => $pizza): ?>
                     <div class="w3-col s12 m6 l3 w3-center">
                         <div class="w3-card w3-padding w3-margin">
                             <h2><?php echo $pizza['name']; ?></h2>
-                            <img src="https://via.placeholder.com/200" alt="<?php echo $pizza['name']; ?>" class="w3-image">
+                            <!-- 動態生成圖片路徑 -->
+                            <img src="pizza/Pizza-<?php echo $key + 1; ?>.jpg" alt="<?php echo $pizza['name']; ?>" class="w3-image">
                             <p>價格: $<?php echo $pizza['price']; ?></p>
                             <form action="add_to_cart.php" method="post" onsubmit="showSuccess('<?php echo $pizza['name']; ?>')">
                                 <input type="hidden" name="name" value="<?php echo $pizza['name']; ?>">
@@ -60,15 +77,15 @@
     </div>
     <script>
         function w3_open() {
-        document.getElementById("main").style.marginLeft = "25%";
-        document.getElementById("mySidebar").style.width = "25%";
-        document.getElementById("mySidebar").style.display = "block";
-        document.getElementById("openNav").style.display = 'none';
+            document.getElementById("main").style.marginLeft = "25%";
+            document.getElementById("mySidebar").style.width = "25%";
+            document.getElementById("mySidebar").style.display = "block";
+            document.getElementById("openNav").style.display = 'none';
         }
         function w3_close() {
-        document.getElementById("main").style.marginLeft = "0%";
-        document.getElementById("mySidebar").style.display = "none";
-        document.getElementById("openNav").style.display = "inline-block";
+            document.getElementById("main").style.marginLeft = "0%";
+            document.getElementById("mySidebar").style.display = "none";
+            document.getElementById("openNav").style.display = "inline-block";
         }
     </script>
 </body>
