@@ -146,7 +146,7 @@
                 <div class="w3-card-4" style="width: 30%; box-sizing: border-box;">
                     <img src="pizza/Pizza-7.jpg" alt="Pizza 7" style="width: 100%;">
                     <div class="w3-container w3-center">
-                        <p>麵包超人披薩</p>
+                        <p>聖誕老人披薩</p>
                         <div class="w3-section">
                             <a href="pizza1.php" class="w3-button w3-green">了解更多</a>
                             <a href="index.php" class="w3-button w3-red">直接訂餐</a>
@@ -158,7 +158,7 @@
                 <div class="w3-card-4" style="width: 30%; box-sizing: border-box;">
                     <img src="pizza/Pizza-8.jpg" alt="Pizza 8" style="width: 100%;">
                     <div class="w3-container w3-center">
-                        <p>起司披薩</p>
+                        <p>菇菇雙倍起司披薩</p>
                         <div class="w3-section">
                             <a href="pizza1.php" class="w3-button w3-green">了解更多</a>
                             <a href="index.php" class="w3-button w3-red">直接訂餐</a>
@@ -170,7 +170,7 @@
                 <div class="w3-card-4" style="width: 30%; box-sizing: border-box;">
                     <img src="pizza/Pizza-9.jpg" alt="Pizza 9" style="width: 100%;">
                     <div class="w3-container w3-center">
-                        <p>西瓜披薩</p>
+                        <p>冷凍披薩</p>
                         <div class="w3-section">
                             <a href="pizza1.php" class="w3-button w3-green">了解更多</a>
                             <a href="index.php" class="w3-button w3-red">直接訂餐</a>
@@ -182,7 +182,7 @@
                 <div class="w3-card-4" style="width: 30%; box-sizing: border-box;">
                     <img src="pizza/Pizza-10.jpg" alt="Pizza 10" style="width: 100%;">
                     <div class="w3-container w3-center">
-                        <p>西瓜披薩</p>
+                        <p>番茄雙倍起司披薩</p>
                         <div class="w3-section">
                             <a href="pizza1.php" class="w3-button w3-green">了解更多</a>
                             <a href="index.php" class="w3-button w3-red">直接訂餐</a>
