@@ -77,19 +77,23 @@ $conn->close();
     </div>
     <!-- 顯示導覽列 -->
     <?php echo $nav; ?>
+    <div id="main">
+        <div class="w3-card-4" style="width:20%; margin: 0 auto; text-align: center;">
+            <img src="pizza/logo.jpg" alt="logo" style="width:100%; display: block; margin: 0 auto;">
+        </div>
+        <div class="w3-center form-container">
+            <h2>登入或註冊</h2>
+            <form method="POST">
+                <label for="username">使用者名稱：</label>
+                <input type="text" name="username" id="username" required><br><br>
 
-    <div class="w3-center form-container">
-        <h2>登入或註冊</h2>
-        <form method="POST">
-            <label for="username">使用者名稱：</label>
-            <input type="text" name="username" id="username" required><br><br>
+                <label for="password">密碼：</label>
+                <input type="password" name="password" id="password" required><br><br>
 
-            <label for="password">密碼：</label>
-            <input type="password" name="password" id="password" required><br><br>
-
-            <button type="submit" name="action" value="login">登入</button>
-            <button type="submit" name="action" value="register">註冊</button>
-        </form>
+                <button type="submit" name="action" value="login">登入</button>
+                <button type="submit" name="action" value="register">註冊</button>
+            </form>
+        </div>
     </div>
 </body>
 </html>
