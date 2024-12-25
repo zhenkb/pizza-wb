@@ -12,7 +12,7 @@
             
         <!-- Navigation Links -->
         <a href="home.php" class="w3-bar-item w3-button">首頁</a>
-        <a href="login.php" class="w3-bar-item w3-button">Link 2</a>
+        <a href="login.php" class="w3-bar-item w3-button">會員登入/註冊</a>
         <a href="#" class="w3-bar-item w3-button">Link 3</a>
             
         <!-- Dropdown Menu -->
