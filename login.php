@@ -21,9 +21,9 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
         $stmt->bind_param("ss", $username, $hashed_password);
 
         if ($stmt->execute()) {
-            echo "<div class='message success'>註冊成功！現在可以登入。</div>";
+            echo "註冊成功！現在可以登入。";
         } else {
-            echo "<div class='message error'>註冊失敗：" . $stmt->error . "</div>";
+            echo "註冊失敗：" . $stmt->error;
         }
 
         $stmt->close();
@@ -40,13 +40,14 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
 
             if (password_verify($password, $hashed_password)) {
                 $_SESSION['user_id'] = $id;
-                header("Location: home.php"); // 登入成功後跳轉
+                // 登入成功後直接跳轉到 home.php
+                header("Location: home.php");
                 exit();
             } else {
-                echo "<div class='message error'>密碼錯誤！</div>";
+                echo "密碼錯誤！";
             }
         } else {
-            echo "<div class='message error'>使用者不存在！</div>";
+            echo "使用者不存在！";
         }
 
         $stmt->close();
@@ -63,99 +64,18 @@ $conn->close();
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>登入與註冊</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            background: linear-gradient(135deg, #ff7e5f, #feb47b);
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            min-height: 100vh;
-            margin: 0;
-            color: #333;
-        }
-
-        .container {
-            background: #fff;
-            padding: 20px;
-            border-radius: 8px;
-            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-            text-align: center;
-            max-width: 400px;
-            width: 100%;
-        }
-
-        h2 {
-            margin-bottom: 20px;
-            color: #444;
-        }
-
-        label {
-            display: block;
-            text-align: left;
-            margin-bottom: 8px;
-            color: #555;
-        }
-
-        input {
-            width: calc(100% - 20px);
-            padding: 10px;
-            margin-bottom: 15px;
-            border: 1px solid #ddd;
-            border-radius: 4px;
-        }
-
-        button {
-            width: calc(50% - 5px);
-            padding: 10px;
-            margin: 5px;
-            border: none;
-            border-radius: 4px;
-            background-color: #ff7e5f;
-            color: #fff;
-            cursor: pointer;
-            font-size: 16px;
-        }
-
-        button:hover {
-            background-color: #feb47b;
-        }
-
-        .message {
-            padding: 10px;
-            margin-bottom: 15px;
-            border-radius: 4px;
-            font-weight: bold;
-        }
-
-        .message.success {
-            background: #d4edda;
-            color: #155724;
-            border: 1px solid #c3e6cb;
-        }
-
-        .message.error {
-            background: #f8d7da;
-            color: #721c24;
-            border: 1px solid #f5c6cb;
-        }
-    </style>
 </head>
 <body>
-    <div class="container">
-        <h2>登入或註冊</h2>
-        <form method="POST">
-            <label for="username">使用者名稱：</label>
-            <input type="text" name="username" id="username" required>
+    <h2>登入或註冊</h2>
+    <form method="POST">
+        <label for="username">使用者名稱：</label>
+        <input type="text" name="username" id="username" required><br><br>
 
-            <label for="password">密碼：</label>
-            <input type="password" name="password" id="password" required>
+        <label for="password">密碼：</label>
+        <input type="password" name="password" id="password" required><br><br>
 
-            <div>
-                <button type="submit" name="action" value="login">登入</button>
-                <button type="submit" name="action" value="register">註冊</button>
-            </div>
-        </form>
-    </div>
+        <button type="submit" name="action" value="login">登入</button>
+        <button type="submit" name="action" value="register">註冊</button>
+    </form>
 </body>
 </html>
