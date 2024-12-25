@@ -23,19 +23,19 @@
             <?=$link?>
         </div>
     <div class="w3-container w3-center">
-    <h2>草仙子披薩</h2>
+    <h2>花仙子披薩</h2>
 
     <div class="w3-card-4" style="display: flex; justify-content: center; width: 50%; margin: 0 auto;">
         <!-- Image Section -->
-        <img src="pizza/Pizza-13.jpg" alt="Alps" style="width: 50%;">
+        <img src="pizza/Pizza-14.jpg" alt="Alps" style="width: 50%;">
 
         <!-- Text Section -->
         <div style="flex: 1; padding-left: 20px;">
         <h4 style="text-align: left;">
-                草仙子披薩是一款充滿清新口感的素食披薩，將新鮮的蔬菜與香草完美結合。
-                這款披薩的餅皮酥脆，搭配了特製的香草醬和濃郁的莫札瑞拉起司，帶來清爽的風味。
-                配料選用了新鮮的番茄、菠菜、蘑菇、綠椒等，並撒上香草香料，增添豐富的層次感。
-                草仙子披薩不僅是素食者的美味選擇，也是任何喜愛健康清新風味食物的食客的理想之選。
+                花仙子披薩是一款充滿春天氣息的素食披薩，帶有新鮮的蔬菜和花卉風味。
+                這款披薩的餅皮酥脆，搭配了特製的香草醬、濃郁的莫札瑞拉起司，並且加入了多種新鮮蔬菜。
+                配料選用了番茄、蘑菇、甜椒、菠菜、洋蔥等蔬菜，並且點綴了可食用花卉，如金盞花或紫羅蘭，帶來一份清新和優雅的感覺。
+                花仙子披薩是一款適合春夏季節的輕盈披薩，讓每一口都充滿大自然的芳香，讓人感覺仿佛置身於花園中。
             </h4>
         </div>
     </div>
