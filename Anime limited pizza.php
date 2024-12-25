@@ -130,6 +130,17 @@
                         </div>
                     </div>
                 </div>
+                <!-- 卡片 20 -->
+                <div class="w3-card-4" style="width: 30%; box-sizing: border-box;">
+                    <img src="pizza/Pizza-20.jpg" alt="Pizza 20" style="width: 100%;">
+                    <div class="w3-container w3-center">
+                        <p>立體喵咪披薩</p>
+                        <div class="w3-section">
+                            <a href="pizza1.php" class="w3-button w3-green">了解更多</a>
+                            <button class="w3-button w3-red">直接訂餐</button>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
