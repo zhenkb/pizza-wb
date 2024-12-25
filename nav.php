@@ -52,9 +52,10 @@
         <div class="w3-bar w3-light-blue">
             <a href="home.php" class="w3-bar-item w3-button">首頁</a>
             <a href="login.php" class="w3-bar-item w3-button w3-right">登入</a>
-            <a href="#" class="w3-bar-item w3-button">Link 1</a>
-            <a href="#" class="w3-bar-item w3-button">Link 2</a>
-            <a href="#" class="w3-bar-item w3-button">Link 3</a>
+            <a href="Regular pizza.php" class="w3-bar-item w3-button">普通披薩</a>
+            <a href="special pizza.php" class="w3-bar-item w3-button">特別披薩</a>
+            <a href="Seasonal limited pizza.php" class="w3-bar-item w3-button">季節限定披薩</a>
+            <a href="Anime limited pizza.php" class="w3-bar-item w3-button">動漫限定披薩</a>
         </div>
         link;
     }
